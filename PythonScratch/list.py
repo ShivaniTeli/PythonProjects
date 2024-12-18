@@ -1,0 +1,18 @@
+l1 = [165,3,4,5,232,44,1,"Harry"]
+print(l1)
+print(type(l1))
+l1.remove("Harry")
+print(l1)
+l1.sort()
+print(l1)
+l1.append(57)
+print(l1)
+l1.pop()
+print(l1)
+l1.clear()
+print(l1)
+l1.extend([1,2,3])
+print(l1)
+print(l1[0:1])
+l1[0]="Harry"
+print(l1)
